@@ -11,7 +11,7 @@ function loadImageCors(url: string): Promise<HTMLImageElement | null> {
   })
 }
 
-export async function downloadAlbumImage(tracks: SlotOption[]) {
+export async function downloadAlbumImage(artistName: string, tracks: SlotOption[]) {
   const W = 600
   const PAD = 32
   const ROW_H = 32
@@ -47,7 +47,7 @@ export async function downloadAlbumImage(tracks: SlotOption[]) {
 
   ctx.fillStyle = '#ffffff'
   ctx.font = 'bold 22px Syne, system-ui'
-  ctx.fillText('Your Lights Album', PAD, PAD + 26)
+  ctx.fillText(`Your ${artistName} Album`, PAD, PAD + 26)
 
   ctx.strokeStyle = 'rgba(255,255,255,0.07)'
   ctx.lineWidth = 1
@@ -106,8 +106,9 @@ export async function downloadAlbumImage(tracks: SlotOption[]) {
     }
   })
 
+  const slug = artistName.toLowerCase().replaceAll(' ', '-')
   const link = document.createElement('a')
-  link.download = 'my-lights-album.png'
+  link.download = `my-${slug}-album.png`
   link.href = canvas.toDataURL('image/png')
   link.click()
 }

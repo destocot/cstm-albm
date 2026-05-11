@@ -15,8 +15,11 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Lights — Build Your Ultimate Album',
-  description: 'Craft your perfect Lights tracklist from across her entire discography.',
+  title: {
+    default: 'Album Builder',
+    template: '%s — Album Builder',
+  },
+  description: "Build a custom album from your favourite artist's full discography.",
 }
 
 export default function RootLayout({

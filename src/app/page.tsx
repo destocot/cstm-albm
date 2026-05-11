@@ -1,6 +1,9 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ChevronRight } from 'lucide-react'
 import { ALL_ARTISTS } from '@/lib/artists'
+
+export const metadata: Metadata = { title: 'Artists' }
 
 export default function Home() {
   return (
@@ -17,7 +20,7 @@ export default function Home() {
             Choose an Artist
           </h1>
           <p className='mt-1.5 text-sm text-white/30'>
-            Build your ultimate custom album from their full discography.
+            Build a custom album from their full discography.
           </p>
         </header>
 

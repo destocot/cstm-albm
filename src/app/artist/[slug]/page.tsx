@@ -100,7 +100,6 @@ export default function ArtistPage({ params }: PageProps) {
     >
       <div className='mx-auto max-w-lg px-4 pb-16 pt-10 sm:px-6'>
 
-        {/* header */}
         <header className='mb-6'>
           <Button
             asChild
@@ -129,7 +128,7 @@ export default function ArtistPage({ params }: PageProps) {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => downloadAlbumImage(visibleTracks)}
+              onClick={() => downloadAlbumImage(artist.name, visibleTracks)}
               className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
               ↓ Save image
@@ -160,7 +159,6 @@ export default function ArtistPage({ params }: PageProps) {
           </div>
         </header>
 
-        {/* tracklist */}
         <div className='flex flex-col gap-1'>
           {visibleSlots.map((slot, i) => (
             <TrackRow
@@ -177,7 +175,6 @@ export default function ArtistPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* chart modal */}
       <Dialog open={showChart} onOpenChange={setShowChart}>
         <DialogContent className='border-white/10 bg-[#07080f] sm:max-w-sm'>
           <DialogHeader>
