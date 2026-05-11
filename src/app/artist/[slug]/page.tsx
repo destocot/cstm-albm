@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ChevronLeft } from 'lucide-react'
 import { Pie, PieChart, Tooltip } from 'recharts'
+import { Button } from '@/components/ui/button'
 import { Switch } from '@/components/ui/switch'
 import {
   Dialog,
@@ -117,39 +118,46 @@ export default function ArtistPage({ params }: PageProps) {
 
         {/* header */}
         <header className='mb-6'>
-          <Link
-            href='/'
-            className='mb-4 inline-flex items-center gap-0.5 text-xs text-white/30 transition-colors hover:text-white/60'
+          <Button
+            asChild
+            variant='ghost'
+            size='sm'
+            className='mb-4 -ml-2 h-auto px-2 py-1 text-white/30 hover:bg-transparent hover:text-white/60'
           >
-            <ChevronLeft className='h-3.5 w-3.5' />
-            Artists
-          </Link>
+            <Link href='/'>
+              <ChevronLeft className='h-3.5 w-3.5' />
+              Artists
+            </Link>
+          </Button>
           <h1 className='mb-4 text-2xl font-bold tracking-tight text-white'>
             Your {artist.name} Album
           </h1>
 
           <div className='flex flex-wrap items-center gap-2'>
-            <button
-              type='button'
+            <Button
+              variant='outline'
+              size='sm'
               onClick={() => setSelectedTracks((prev) => randomizeTracks(slots, prev))}
-              className='rounded-md border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/60 transition-colors hover:border-white/20 hover:bg-white/8 hover:text-white/80'
+              className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
               ↺ Shuffle 1–{BASE_TRACKS}
-            </button>
-            <button
-              type='button'
+            </Button>
+            <Button
+              variant='outline'
+              size='sm'
               onClick={() => downloadAlbumImage(visibleTracks)}
-              className='rounded-md border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/60 transition-colors hover:border-white/20 hover:bg-white/8 hover:text-white/80'
+              className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
               ↓ Save image
-            </button>
-            <button
-              type='button'
+            </Button>
+            <Button
+              variant='outline'
+              size='sm'
               onClick={() => setShowChart(true)}
-              className='rounded-md border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-white/60 transition-colors hover:border-white/20 hover:bg-white/8 hover:text-white/80'
+              className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
               ◎ Distribution
-            </button>
+            </Button>
 
             <div className='ml-auto flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-2.5 py-1.5'>
               <Switch
