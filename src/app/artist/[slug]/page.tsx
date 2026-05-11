@@ -1,6 +1,6 @@
 'use client'
 
-import { use, useEffect, useMemo, useRef, useState } from 'react'
+import { use, useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ChevronLeft } from 'lucide-react'
@@ -49,35 +49,19 @@ export default function ArtistPage({ params }: PageProps) {
 
   const slots = useMemo(() => buildSlots(releases), [releases])
 
-  const [selectedTracks, setSelectedTracks] = useState<SlotOption[]>(
-    () => slots.map((slot) => slot.options[0]),
-  )
+  const [selectedTracks, setSelectedTracks] = useState<SlotOption[]>(() => {
+    const saved = loadSaved(slug, [])
+    if (saved.length === slots.length) return saved
+    return randomizeTracks(slots, slots.map((s) => s.options[0]))
+  })
   const [pickerSlotIndex, setPickerSlotIndex] = useState<number | null>(null)
   const [isExtended, setIsExtended] = useState(false)
   const [showChart, setShowChart] = useState(false)
-  const initialized = useRef(false)
 
-  // On mount: load saved selection or randomize
   useEffect(() => {
-    if (initialized.current) return
-    initialized.current = true
-    const defaults = slots.map((slot) => slot.options[0])
-    const saved = loadSaved(slug, [])
-    if (saved.length === slots.length) {
-      setSelectedTracks(saved)
-    } else {
-      setSelectedTracks(randomizeTracks(slots, defaults))
-    }
-  }, [slots, slug])
-
-  // Persist every change
-  useEffect(() => {
-    if (!initialized.current) return
     try {
       localStorage.setItem(storageKey(slug), JSON.stringify(selectedTracks))
-    } catch {
-      // storage full or unavailable — ignore
-    }
+    } catch { /* storage full or unavailable */ }
   }, [selectedTracks, slug])
 
   const visibleSlots = isExtended ? slots : slots.slice(0, BASE_TRACKS)
