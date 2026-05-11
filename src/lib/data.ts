@@ -1,5 +1,3 @@
-import rawData from '../../data.json'
-
 export interface Release {
   id: string
   title: string
@@ -29,8 +27,7 @@ export interface Slot {
 export const MAX_TRACKS = 21
 export const BASE_TRACKS = 15
 
-function buildSlots(): Slot[] {
-  const releases = rawData.releases as Release[]
+export function buildSlots(releases: Release[]): Slot[] {
   return Array.from({ length: MAX_TRACKS }, (_, i) => {
     const trackNum = i + 1
     const options: SlotOption[] = []
@@ -55,10 +52,8 @@ function buildSlots(): Slot[] {
   })
 }
 
-export const SLOTS = buildSlots()
-
-export function randomizeTracks(current: SlotOption[]): SlotOption[] {
-  return SLOTS.map((slot, i) => {
+export function randomizeTracks(slots: Slot[], current: SlotOption[]): SlotOption[] {
+  return slots.map((slot, i) => {
     const isRandomizable = i < BASE_TRACKS && slot.options.length > 1
     if (!isRandomizable) return current[i]
     return slot.options[Math.floor(Math.random() * slot.options.length)]

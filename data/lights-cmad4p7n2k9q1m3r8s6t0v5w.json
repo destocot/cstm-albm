@@ -1,0 +1,241 @@
+{
+  "artist": {
+    "id": "cmad4p7n2k9q1m3r8s6t0v5w",
+    "name": "Lights",
+    "slug": "lights-cmad4p7n2k9q1m3r8s6t0v5w",
+    "genre": "Synth-pop / Indie pop",
+    "origin": "Timmins, Ontario, Canada",
+    "born": "1987-04-11"
+  },
+  "releases": [
+    {
+      "id": "clka4p7n2x9q1m3r8s6t0v5w2",
+      "title": "Lights",
+      "type": "ep",
+      "year": 2008,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/lights-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Ice" },
+        { "trackNumber": 2, "title": "Drive My Soul" },
+        { "trackNumber": 3, "title": "February Air" },
+        { "trackNumber": 4, "title": "White" },
+        { "trackNumber": 5, "title": "I Owe You One" },
+        { "trackNumber": 6, "title": "The Last Thing On Your Mind" }
+      ]
+    },
+    {
+      "id": "clkb8r3s6t0u5v2w9x4y1z7a8",
+      "title": "The Listening",
+      "type": "album",
+      "year": 2009,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/the-listening-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Saviour" },
+        { "trackNumber": 2, "title": "Drive My Soul" },
+        { "trackNumber": 3, "title": "River" },
+        { "trackNumber": 4, "title": "The Listening" },
+        { "trackNumber": 5, "title": "Ice" },
+        { "trackNumber": 6, "title": "Pretend" },
+        { "trackNumber": 7, "title": "The Last Thing On Your Mind" },
+        { "trackNumber": 8, "title": "Second Go" },
+        { "trackNumber": 9, "title": "February Air" },
+        { "trackNumber": 10, "title": "Face Up" },
+        { "trackNumber": 11, "title": "Lions!" },
+        { "trackNumber": 12, "title": "Quiet" },
+        { "trackNumber": 13, "title": "Pretend (Reprise)" },
+        { "trackNumber": 14, "title": "Up Up And Away" },
+        { "trackNumber": 15, "title": "Saviour (Colin Munroe's Unsung Mix)" }
+      ]
+    },
+    {
+      "id": "clkc2m9q5n8r1s4t7u0v3w6x9",
+      "title": "Siberia",
+      "type": "album",
+      "year": 2011,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/siberia-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Siberia" },
+        { "trackNumber": 2, "title": "Where The Fence Is Low" },
+        { "trackNumber": 3, "title": "Toes" },
+        { "trackNumber": 4, "title": "Banner" },
+        { "trackNumber": 5, "title": "Everybody Breaks A Glass" },
+        { "trackNumber": 6, "title": "Heavy Rope" },
+        { "trackNumber": 7, "title": "Timing Is Everything" },
+        { "trackNumber": 8, "title": "Peace Sign" },
+        { "trackNumber": 9, "title": "Cactus In The Valley" },
+        { "trackNumber": 10, "title": "Suspension" },
+        { "trackNumber": 11, "title": "Flux And Flow" },
+        { "trackNumber": 12, "title": "Fourth Dimension" },
+        { "trackNumber": 13, "title": "And Counting..." },
+        { "trackNumber": 14, "title": "Day One", "note": "Instrumental" },
+        { "trackNumber": 15, "title": "Frame And Focus" }
+      ]
+    },
+    {
+      "id": "clkd6t1u4v7w0x3y6z9a2b5c8",
+      "title": "Siberia (Acoustic)",
+      "type": "album",
+      "year": 2013,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/siberia-acoustic-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Banner (Acoustic)" },
+        { "trackNumber": 2, "title": "Cactus In The Valley (Acoustic)" },
+        { "trackNumber": 3, "title": "Where The Fence Is Low (Acoustic)" },
+        { "trackNumber": 4, "title": "Siberia (Acoustic)" },
+        { "trackNumber": 5, "title": "Suspension (Acoustic)" },
+        { "trackNumber": 6, "title": "Toes (Acoustic)" },
+        { "trackNumber": 7, "title": "Peace Sign (Acoustic)" },
+        { "trackNumber": 8, "title": "Heavy Rope (Acoustic)" },
+        { "trackNumber": 9, "title": "Flux And Flow (Acoustic)" },
+        { "trackNumber": 10, "title": "And Counting... (Acoustic)" },
+        { "trackNumber": 11, "title": "Timing Is Everything (Acoustic)" }
+      ]
+    },
+    {
+      "id": "clke0v5w8x1y4z7a0b3c6d9e2",
+      "title": "Little Machines",
+      "type": "album",
+      "year": 2014,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/little-machines-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Portal" },
+        { "trackNumber": 2, "title": "Running With The Boys" },
+        { "trackNumber": 3, "title": "Up We Go" },
+        { "trackNumber": 4, "title": "Same Sea" },
+        { "trackNumber": 5, "title": "Speeding" },
+        { "trackNumber": 6, "title": "Muscle Memory" },
+        { "trackNumber": 7, "title": "Oil And Water" },
+        { "trackNumber": 8, "title": "Slow Down" },
+        { "trackNumber": 9, "title": "Meteorites" },
+        { "trackNumber": 10, "title": "How We Do It" },
+        { "trackNumber": 11, "title": "Don't Go Home Without Me" },
+        { "trackNumber": 12, "title": "Child" },
+        { "trackNumber": 13, "title": "Lucky Ones" },
+        { "trackNumber": 14, "title": "From All Sides" }
+      ]
+    },
+    {
+      "id": "clkf4x9y2z5a8b1c4d7e0f3g6",
+      "title": "Midnight Machines",
+      "type": "album",
+      "year": 2016,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/midnight-machines-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Up We Go" },
+        { "trackNumber": 2, "title": "Same Sea" },
+        { "trackNumber": 3, "title": "Follow You Down" },
+        { "trackNumber": 4, "title": "Meteorites" },
+        { "trackNumber": 5, "title": "Don't Go Home Without Me" },
+        { "trackNumber": 6, "title": "Running With The Boys" },
+        { "trackNumber": 7, "title": "Head Cold" },
+        { "trackNumber": 8, "title": "Muscle Memory" }
+      ]
+    },
+    {
+      "id": "clkg8z3a6b9c2d5e8f1g4h7i0",
+      "title": "Skin & Earth",
+      "type": "album",
+      "year": 2017,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/skin-and-earth-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Intro" },
+        { "trackNumber": 2, "title": "Skydiving" },
+        { "trackNumber": 3, "title": "Until The Light" },
+        { "trackNumber": 4, "title": "Savage" },
+        { "trackNumber": 5, "title": "New Fears" },
+        { "trackNumber": 6, "title": "Morphine" },
+        { "trackNumber": 7, "title": "We Were Here" },
+        { "trackNumber": 8, "title": "Kicks" },
+        { "trackNumber": 9, "title": "Giants" },
+        { "trackNumber": 10, "title": "Moonshine" },
+        { "trackNumber": 11, "title": "Interlude" },
+        { "trackNumber": 12, "title": "Magnetic Field" },
+        { "trackNumber": 13, "title": "Fight Club" },
+        { "trackNumber": 14, "title": "Almost Had Me" }
+      ]
+    },
+    {
+      "id": "clkh2b7c0d3e6f9g2h5i8j1k4",
+      "title": "PEP",
+      "type": "album",
+      "year": 2022,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/pep-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Beside Myself" },
+        { "trackNumber": 2, "title": "In My Head" },
+        { "trackNumber": 3, "title": "Prodigal Daughter" },
+        { "trackNumber": 4, "title": "Salt And Vinegar" },
+        { "trackNumber": 5, "title": "Money In The Bag" },
+        { "trackNumber": 6, "title": "Jaws" },
+        { "trackNumber": 7, "title": "Rent" },
+        { "trackNumber": 8, "title": "Sparky" },
+        { "trackNumber": 9, "title": "Real Thing" },
+        { "trackNumber": 10, "title": "Easy Money" },
+        { "trackNumber": 11, "title": "Okay Okay" },
+        { "trackNumber": 12, "title": "Voices Carry" },
+        { "trackNumber": 13, "title": "Grip" }
+      ]
+    },
+    {
+      "id": "clki6d1e4f7g0h3i6j9k2l5m8",
+      "title": "dEd",
+      "type": "album",
+      "year": 2023,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/ded-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Grip (dEd version)" },
+        { "trackNumber": 2, "title": "Voices Carry (dEd version)" },
+        { "trackNumber": 3, "title": "Okay Okay (dEd version)" },
+        { "trackNumber": 4, "title": "Easy Money (dEd version)" },
+        { "trackNumber": 5, "title": "Real Thing (dEd version)" },
+        { "trackNumber": 6, "title": "Sparky (dEd version)" },
+        { "trackNumber": 7, "title": "Rent (dEd version)" },
+        { "trackNumber": 8, "title": "Jaws (dEd version)" },
+        { "trackNumber": 9, "title": "Money In The Bag (dEd version)" },
+        { "trackNumber": 10, "title": "Salt And Vinegar (dEd version)" },
+        { "trackNumber": 11, "title": "Prodigal Daughter (dEd version)" },
+        { "trackNumber": 12, "title": "In My Head (dEd version)" },
+        { "trackNumber": 13, "title": "Beside Myself (dEd version)" }
+      ]
+    },
+    {
+      "id": "clkj0f5g8h1i4j7k0l3m6n9o2",
+      "title": "A6",
+      "type": "album",
+      "year": 2025,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/a6-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "INTRO" },
+        { "trackNumber": 2, "title": "DAMAGE" },
+        { "trackNumber": 3, "title": "ALIVE AGAIN" },
+        { "trackNumber": 4, "title": "SURFACE TENSION" },
+        { "trackNumber": 5, "title": "YOU'RE KILLING ME" },
+        { "trackNumber": 6, "title": "WHITE PAPER PALM TREES" },
+        { "trackNumber": 7, "title": "GHOST GIRL ON FIRST" },
+        { "trackNumber": 8, "title": "TAKE IT EASY" },
+        { "trackNumber": 9, "title": "DRINKS ON THE COAST" },
+        { "trackNumber": 10, "title": "CLINGY" },
+        { "trackNumber": 11, "title": "THE OTHER SIDE OF THE DOOR" },
+        { "trackNumber": 12, "title": "PIRANHA" },
+        { "trackNumber": 13, "title": "DAY TWO" }
+      ]
+    },
+    {
+      "id": "clkk4h9i2j5k8l1m4n7o0p3q6",
+      "title": "A6EXTENDED",
+      "type": "album",
+      "year": 2025,
+      "cover": "/lights-cmad4p7n2k9q1m3r8s6t0v5w/a6extended-cover.png",
+      "tracks": [
+        { "trackNumber": 14, "title": "EDUCATION" },
+        { "trackNumber": 15, "title": "COME GET YOUR GIRL" },
+        { "trackNumber": 16, "title": "LOVE IS A GAME" },
+        { "trackNumber": 17, "title": "THE CITY IS FALLING" },
+        { "trackNumber": 18, "title": "THIS TIME TMRW" },
+        { "trackNumber": 19, "title": "LEARNING TO LET GO" },
+        { "trackNumber": 20, "title": "FINAL ROUND" },
+        { "trackNumber": 21, "title": "ANGELINA" }
+      ]
+    }
+  ]
+}
