@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": "cmp1bq645000104l5atpl3gtp",
+    "name": "Twenty One Pilots",
+    "slug": "twenty-one-pilots-cmp1bq645000104l5atpl3gtp",
+    "genre": "Alternative / Indie rock",
+    "origin": "Columbus, Ohio"
+  },
+  "releases": [
+    {
+      "id": "cmb1q2r3s4t5u6v7w8x9y0z1a2",
+      "title": "Twenty One Pilots",
+      "type": "album",
+      "year": 2009,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/twenty-one-pilots-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Implicit Demand For Proof" },
+        { "trackNumber": 2, "title": "Fall Away" },
+        { "trackNumber": 3, "title": "The Pantaloon" },
+        { "trackNumber": 4, "title": "Addict With A Pen" },
+        { "trackNumber": 5, "title": "Friend, Please" },
+        { "trackNumber": 6, "title": "March To The Sea" },
+        { "trackNumber": 7, "title": "Johnny Boy" },
+        { "trackNumber": 8, "title": "Oh Ms Believer" },
+        { "trackNumber": 9, "title": "Air Catcher" },
+        { "trackNumber": 10, "title": "Trapdoor" },
+        { "trackNumber": 11, "title": "A Car, A Torch, A Death" },
+        { "trackNumber": 12, "title": "Taxi Cab" },
+        { "trackNumber": 13, "title": "Before You Start Your Day" },
+        { "trackNumber": 14, "title": "Isle Of Flightless Birds" }
+      ]
+    },
+    {
+      "id": "cmb2a3b4c5d6e7f8g9h0i1j2k3",
+      "title": "Regional At Best",
+      "type": "album",
+      "year": 2011,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/regional-at-best-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Guns For Hands" },
+        { "trackNumber": 2, "title": "Holding On To You" },
+        { "trackNumber": 3, "title": "Ode To Sleep" },
+        { "trackNumber": 4, "title": "Slowtown" },
+        { "trackNumber": 5, "title": "Car Radio" },
+        { "trackNumber": 6, "title": "Forest" },
+        { "trackNumber": 7, "title": "Glowing Eyes" },
+        { "trackNumber": 8, "title": "Kitchen Sink" },
+        { "trackNumber": 9, "title": "Anathema" },
+        { "trackNumber": 10, "title": "Lovely" },
+        { "trackNumber": 11, "title": "Ruby" },
+        { "trackNumber": 12, "title": "Trees" },
+        { "trackNumber": 13, "title": "Be Concerned" },
+        { "trackNumber": 14, "title": "Clear" }
+      ]
+    },
+    {
+      "id": "cmb3l4m5n6o7p8q9r0s1t2u3v4",
+      "title": "Vessel",
+      "type": "album",
+      "year": 2013,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/vessel-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Ode To Sleep" },
+        { "trackNumber": 2, "title": "Holding On To You" },
+        { "trackNumber": 3, "title": "Migraine" },
+        { "trackNumber": 4, "title": "House Of Gold" },
+        { "trackNumber": 5, "title": "Car Radio" },
+        { "trackNumber": 6, "title": "Semi-Automatic" },
+        { "trackNumber": 7, "title": "Screen" },
+        { "trackNumber": 8, "title": "The Run And Go" },
+        { "trackNumber": 9, "title": "Fake You Out" },
+        { "trackNumber": 10, "title": "Guns For Hands" },
+        { "trackNumber": 11, "title": "Trees" },
+        { "trackNumber": 12, "title": "Truce" }
+      ]
+    },
+    {
+      "id": "cmb4w5x6y7z8a9b0c1d2e3f4g5",
+      "title": "Blurryface",
+      "type": "album",
+      "year": 2015,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/blurryface-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Heavydirtysoul" },
+        { "trackNumber": 2, "title": "Stressed Out" },
+        { "trackNumber": 3, "title": "Ride" },
+        { "trackNumber": 4, "title": "Fairly Local" },
+        { "trackNumber": 5, "title": "Tear In My Heart" },
+        { "trackNumber": 6, "title": "Lane Boy" },
+        { "trackNumber": 7, "title": "The Judge" },
+        { "trackNumber": 8, "title": "Doubt" },
+        { "trackNumber": 9, "title": "Polarize" },
+        { "trackNumber": 10, "title": "We Don't Believe What's On T.V." },
+        { "trackNumber": 11, "title": "Message Man" },
+        { "trackNumber": 12, "title": "Hometown" },
+        { "trackNumber": 13, "title": "Not Today" },
+        { "trackNumber": 14, "title": "Goner" }
+      ]
+    },
+    {
+      "id": "cmb5h6i7j8k9l0m1n2o3p4q5r6",
+      "title": "Trench",
+      "type": "album",
+      "year": 2018,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/trench-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Jumpsuit" },
+        { "trackNumber": 2, "title": "Levitate" },
+        { "trackNumber": 3, "title": "Morph" },
+        { "trackNumber": 4, "title": "My Blood" },
+        { "trackNumber": 5, "title": "Chlorine" },
+        { "trackNumber": 6, "title": "Smithereens" },
+        { "trackNumber": 7, "title": "Neon Gravestones" },
+        { "trackNumber": 8, "title": "The Hype" },
+        { "trackNumber": 9, "title": "Nico And The Niners" },
+        { "trackNumber": 10, "title": "Cut My Lip" },
+        { "trackNumber": 11, "title": "Bandito" },
+        { "trackNumber": 12, "title": "Pet Cheetah" },
+        { "trackNumber": 13, "title": "Legend" },
+        { "trackNumber": 14, "title": "Leave The City" }
+      ]
+    },
+    {
+      "id": "cmb6s7t8u9v0w1x2y3z4a5b6c7",
+      "title": "Scaled And Icy",
+      "type": "album",
+      "year": 2021,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/scaled-and-icy-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Good Day" },
+        { "trackNumber": 2, "title": "Choker" },
+        { "trackNumber": 3, "title": "Shy Away" },
+        { "trackNumber": 4, "title": "The Outside" },
+        { "trackNumber": 5, "title": "Saturday" },
+        { "trackNumber": 6, "title": "Never Take It" },
+        { "trackNumber": 7, "title": "Mulberry Street" },
+        { "trackNumber": 8, "title": "Formidable" },
+        { "trackNumber": 9, "title": "Bounce Man" },
+        { "trackNumber": 10, "title": "No Chances" },
+        { "trackNumber": 11, "title": "Redecorate" }
+      ]
+    },
+    {
+      "id": "cmb7d8e9f0g1h2i3j4k5l6m7n8",
+      "title": "Clancy",
+      "type": "album",
+      "year": 2024,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/clancy-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Overcompensate" },
+        { "trackNumber": 2, "title": "Next Semester" },
+        { "trackNumber": 3, "title": "Backslide" },
+        { "trackNumber": 4, "title": "Midwest Indigo" },
+        { "trackNumber": 5, "title": "Routines In The Night" },
+        { "trackNumber": 6, "title": "Vignette" },
+        { "trackNumber": 7, "title": "The Craving (Jenna's Version)" },
+        { "trackNumber": 8, "title": "Lavish" },
+        { "trackNumber": 9, "title": "Navigating" },
+        { "trackNumber": 10, "title": "Snap Back" },
+        { "trackNumber": 11, "title": "Oldies Station" },
+        { "trackNumber": 12, "title": "At The Risk Of Feeling Dumb" },
+        { "trackNumber": 13, "title": "Paladin Strait" }
+      ]
+    },
+    {
+      "id": "cmb8o9p0q1r2s3t4u5v6w7x8y9",
+      "title": "Breach",
+      "type": "album",
+      "year": 2025,
+      "cover": "/twenty-one-pilots-cmp1bq645000104l5atpl3gtp/breach-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "City Walls" },
+        { "trackNumber": 2, "title": "RAWFEAR" },
+        { "trackNumber": 3, "title": "Drum Show" },
+        { "trackNumber": 4, "title": "Garbage" },
+        { "trackNumber": 5, "title": "The Contract" },
+        { "trackNumber": 6, "title": "Downstairs" },
+        { "trackNumber": 7, "title": "Robot Voices" },
+        { "trackNumber": 8, "title": "Center Mass" },
+        { "trackNumber": 9, "title": "Cottonwood" },
+        { "trackNumber": 10, "title": "One Way" },
+        { "trackNumber": 11, "title": "Days Lie Dormant" },
+        { "trackNumber": 12, "title": "Tally" },
+        { "trackNumber": 13, "title": "Intentions" },
+        { "trackNumber": 14, "title": "Drag Path" }
+      ]
+    }
+  ]
+}

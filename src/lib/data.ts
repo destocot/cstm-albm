@@ -24,11 +24,11 @@ export interface Slot {
   options: SlotOption[]
 }
 
-export const MAX_TRACKS = 21
 export const BASE_TRACKS = 15
 
 export function buildSlots(releases: Release[]): Slot[] {
-  return Array.from({ length: MAX_TRACKS }, (_, i) => {
+  const max = Math.max(0, ...releases.flatMap((r) => r.tracks.map((t) => t.trackNumber)))
+  return Array.from({ length: max }, (_, i) => {
     const trackNum = i + 1
     const options: SlotOption[] = []
 

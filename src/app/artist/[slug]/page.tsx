@@ -49,14 +49,22 @@ export default function ArtistPage({ params }: PageProps) {
 
   const slots = useMemo(() => buildSlots(releases), [releases])
 
-  const [selectedTracks, setSelectedTracks] = useState<SlotOption[]>(() => {
-    const saved = loadSaved(slug, [])
-    if (saved.length === slots.length) return saved
-    return randomizeTracks(slots, slots.map((s) => s.options[0]))
-  })
+  const [selectedTracks, setSelectedTracks] = useState<SlotOption[]>(() =>
+    slots.map((s) => s.options[0])
+  )
   const [pickerSlotIndex, setPickerSlotIndex] = useState<number | null>(null)
   const [isExtended, setIsExtended] = useState(false)
   const [showChart, setShowChart] = useState(false)
+
+  useEffect(() => {
+    const saved = loadSaved(slug, [])
+    setSelectedTracks(
+      saved.length === slots.length
+        ? saved
+        : randomizeTracks(slots, slots.map((s) => s.options[0]))
+    )
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []) // mount-only: load or randomize once after hydration
 
   useEffect(() => {
     try {
@@ -64,6 +72,7 @@ export default function ArtistPage({ params }: PageProps) {
     } catch { /* storage full or unavailable */ }
   }, [selectedTracks, slug])
 
+  const hasExtended = slots.length > BASE_TRACKS
   const visibleSlots = isExtended ? slots : slots.slice(0, BASE_TRACKS)
   const visibleTracks = isExtended ? selectedTracks : selectedTracks.slice(0, BASE_TRACKS)
 
@@ -116,20 +125,20 @@ export default function ArtistPage({ params }: PageProps) {
             Your {artist.name} Album
           </h1>
 
-          <div className='flex flex-wrap items-center gap-2'>
+          <div className={`grid grid-cols-2 gap-2 ${hasExtended ? 'sm:grid-cols-4' : 'sm:grid-cols-3'}`}>
             <Button
               variant='outline'
               size='sm'
               onClick={() => setSelectedTracks((prev) => randomizeTracks(slots, prev))}
-              className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
+              className='w-full border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
-              ↺ Shuffle 1–{BASE_TRACKS}
+              ↺ Randomize 1–{BASE_TRACKS}
             </Button>
             <Button
               variant='outline'
               size='sm'
               onClick={() => downloadAlbumImage(artist.name, visibleTracks)}
-              className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
+              className='w-full border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
               ↓ Save image
             </Button>
@@ -137,25 +146,27 @@ export default function ArtistPage({ params }: PageProps) {
               variant='outline'
               size='sm'
               onClick={() => setShowChart(true)}
-              className='border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
+              className='w-full border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
               ◎ Distribution
             </Button>
 
-            <div className='ml-auto flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-2.5 py-1.5'>
-              <Switch
-                id='extended'
-                checked={isExtended}
-                onCheckedChange={setIsExtended}
-                className='data-unchecked:bg-white/25 data-checked:bg-teal-500'
-              />
-              <label
-                htmlFor='extended'
-                className={`cursor-pointer text-xs font-medium transition-colors ${isExtended ? 'text-teal-300' : 'text-white/50'}`}
-              >
-                EXTENDED
-              </label>
-            </div>
+            {hasExtended && (
+              <div className='flex h-6 items-center justify-center gap-2 rounded-md border border-white/10 bg-white/5 px-2.5'>
+                <Switch
+                  id='extended'
+                  checked={isExtended}
+                  onCheckedChange={setIsExtended}
+                  className='data-unchecked:bg-white/25 data-checked:bg-teal-500'
+                />
+                <label
+                  htmlFor='extended'
+                  className={`cursor-pointer text-xs font-medium transition-colors ${isExtended ? 'text-teal-300' : 'text-white/50'}`}
+                >
+                  EXTENDED
+                </label>
+              </div>
+            )}
           </div>
         </header>
 
