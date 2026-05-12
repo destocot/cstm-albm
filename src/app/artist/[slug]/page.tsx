@@ -132,7 +132,7 @@ export default function ArtistPage({ params }: PageProps) {
               onClick={() => setSelectedTracks((prev) => randomizeTracks(slots, prev))}
               className='w-full border-white/10 bg-white/5 px-3 text-white/60 hover:border-white/20 hover:bg-white/8 hover:text-white/80'
             >
-              ↺ Randomize 1–{BASE_TRACKS}
+              ↺ Randomize 1–{Math.min(slots.length, BASE_TRACKS)}
             </Button>
             <Button
               variant='outline'

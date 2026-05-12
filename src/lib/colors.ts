@@ -19,6 +19,17 @@ export const RELEASE_DOT_COLORS: Record<string, string> = {
   'Scaled And Icy':     '#38bdf8',
   'Clancy':             '#a855f8',
   'Breach':             '#6366f1',
+  'Final Destination':  '#f59e0b',
+  'Nothing Lasts Forever': '#94a3b8',
+  'The Enemy Inside':   '#dc2626',
+  'Through Clarity':    '#10b981',
+  'The Revelation':     '#7c3aed',
+  'Until The End':      '#3b82f6',
+  'VENA':               '#be123c',
+  'FATELESS':           '#d97706',
+  'THE SIDE EFFECTS':   '#84cc16',
+  'Nonnegative':        '#06b6d4',
+  'OPTIMIZE':           '#6366f1',
 }
 
 export const BADGE_COLORS: Record<string, { bg: string; text: string }> = {
@@ -42,6 +53,17 @@ export const BADGE_COLORS: Record<string, { bg: string; text: string }> = {
   'Scaled And Icy':     { bg: 'bg-sky-900/60',      text: 'text-sky-200'     },
   'Clancy':             { bg: 'bg-purple-900/60',   text: 'text-purple-200'  },
   'Breach':             { bg: 'bg-indigo-950/60',   text: 'text-indigo-300'  },
+  'Final Destination':  { bg: 'bg-amber-950/60',   text: 'text-amber-200'   },
+  'Nothing Lasts Forever': { bg: 'bg-slate-800/60', text: 'text-slate-300'  },
+  'The Enemy Inside':   { bg: 'bg-red-950/60',     text: 'text-red-300'     },
+  'Through Clarity':    { bg: 'bg-emerald-900/60', text: 'text-emerald-200' },
+  'The Revelation':     { bg: 'bg-violet-950/60',  text: 'text-violet-300'  },
+  'Until The End':      { bg: 'bg-blue-900/60',    text: 'text-blue-200'    },
+  'VENA':               { bg: 'bg-rose-900/60',    text: 'text-rose-200'    },
+  'FATELESS':           { bg: 'bg-orange-950/60',  text: 'text-orange-200'  },
+  'THE SIDE EFFECTS':   { bg: 'bg-lime-900/60',    text: 'text-lime-200'    },
+  'Nonnegative':        { bg: 'bg-cyan-900/60',    text: 'text-cyan-200'    },
+  'OPTIMIZE':           { bg: 'bg-indigo-900/60',  text: 'text-indigo-200'  },
 }
 
 export const PICKER_COLORS: Record<string, { border: string; text: string; activeBg: string }> = {
@@ -65,4 +87,15 @@ export const PICKER_COLORS: Record<string, { border: string; text: string; activ
   'Scaled And Icy':     { border: 'border-sky-400/30',     text: 'text-sky-200',     activeBg: 'bg-sky-900/50'     },
   'Clancy':             { border: 'border-purple-500/30',  text: 'text-purple-200',  activeBg: 'bg-purple-900/50'  },
   'Breach':             { border: 'border-indigo-500/30',  text: 'text-indigo-300',  activeBg: 'bg-indigo-950/50'  },
+  'Final Destination':  { border: 'border-amber-500/30',   text: 'text-amber-200',   activeBg: 'bg-amber-950/50'   },
+  'Nothing Lasts Forever': { border: 'border-slate-500/30', text: 'text-slate-300',  activeBg: 'bg-slate-800/50'   },
+  'The Enemy Inside':   { border: 'border-red-500/30',     text: 'text-red-300',     activeBg: 'bg-red-950/50'     },
+  'Through Clarity':    { border: 'border-emerald-500/30', text: 'text-emerald-200', activeBg: 'bg-emerald-900/50' },
+  'The Revelation':     { border: 'border-violet-500/30',  text: 'text-violet-300',  activeBg: 'bg-violet-950/50'  },
+  'Until The End':      { border: 'border-blue-400/30',    text: 'text-blue-200',    activeBg: 'bg-blue-900/50'    },
+  'VENA':               { border: 'border-rose-600/30',    text: 'text-rose-200',    activeBg: 'bg-rose-900/50'    },
+  'FATELESS':           { border: 'border-orange-500/30',  text: 'text-orange-200',  activeBg: 'bg-orange-950/50'  },
+  'THE SIDE EFFECTS':   { border: 'border-lime-500/30',    text: 'text-lime-200',    activeBg: 'bg-lime-900/50'    },
+  'Nonnegative':        { border: 'border-cyan-500/30',    text: 'text-cyan-200',    activeBg: 'bg-cyan-900/50'    },
+  'OPTIMIZE':           { border: 'border-indigo-400/30',  text: 'text-indigo-200',  activeBg: 'bg-indigo-900/50'  },
 }

@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": "cmp252wg70001356p6xsfi2iz",
+    "name": "coldrain",
+    "slug": "coldrain-cmp252wg70001356p6xsfi2iz",
+    "genre": "Metalcore / Post-hardcore",
+    "origin": "Nagoya, Japan"
+  },
+  "releases": [
+    {
+      "id": "cmcr1a2b3c4d5e6f7g8h9i0j1k",
+      "title": "Final Destination",
+      "type": "album",
+      "year": 2009,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/final-destination-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Final Destination" },
+        { "trackNumber": 2, "title": "Counterfeits & Lies" },
+        { "trackNumber": 3, "title": "Someday" },
+        { "trackNumber": 4, "title": "Fiction" },
+        { "trackNumber": 5, "title": "Just Tonight" },
+        { "trackNumber": 6, "title": "24-7" },
+        { "trackNumber": 7, "title": "Doors" },
+        { "trackNumber": 8, "title": "Deja Vu" },
+        { "trackNumber": 9, "title": "Survive" },
+        { "trackNumber": 10, "title": "My Addiction" },
+        { "trackNumber": 11, "title": "Painting" },
+        { "trackNumber": 12, "title": "8AM" }
+      ]
+    },
+    {
+      "id": "cmcr2b3c4d5e6f7g8h9i0j1k2l",
+      "title": "Nothing Lasts Forever",
+      "type": "ep",
+      "year": 2010,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/nothing-lasts-forever-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Die Tomorrow" },
+        { "trackNumber": 2, "title": "We're Not Alone" },
+        { "trackNumber": 3, "title": "Stuck" },
+        { "trackNumber": 4, "title": "After Dark" },
+        { "trackNumber": 5, "title": "The Youth" },
+        { "trackNumber": 6, "title": "Miss You" }
+      ]
+    },
+    {
+      "id": "cmcr3c4d5e6f7g8h9i0j1k2l3m",
+      "title": "The Enemy Inside",
+      "type": "album",
+      "year": 2011,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/the-enemy-inside-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "To Be Alive" },
+        { "trackNumber": 2, "title": "New Fate" },
+        { "trackNumber": 3, "title": "Rescue Me" },
+        { "trackNumber": 4, "title": "Adrenaline" },
+        { "trackNumber": 5, "title": "You" },
+        { "trackNumber": 6, "title": "The Maze" },
+        { "trackNumber": 7, "title": "Rise And Fall" },
+        { "trackNumber": 8, "title": "Confession" },
+        { "trackNumber": 9, "title": "A Tragic Instinct" },
+        { "trackNumber": 10, "title": "Hollow" }
+      ]
+    },
+    {
+      "id": "cmcr4d5e6f7g8h9i0j1k2l3m4n",
+      "title": "Through Clarity",
+      "type": "ep",
+      "year": 2012,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/through-clarity-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "No Escape" },
+        { "trackNumber": 2, "title": "Persona" },
+        { "trackNumber": 3, "title": "The Future" },
+        { "trackNumber": 4, "title": "Six Feet Under" },
+        { "trackNumber": 5, "title": "Never Look Away" },
+        { "trackNumber": 6, "title": "Inside Of Me" }
+      ]
+    },
+    {
+      "id": "cmcr5e6f7g8h9i0j1k2l3m4n5o",
+      "title": "The Revelation",
+      "type": "album",
+      "year": 2013,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/the-revelation-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "The War Is On" },
+        { "trackNumber": 2, "title": "The Revelation" },
+        { "trackNumber": 3, "title": "Falling Forever" },
+        { "trackNumber": 4, "title": "Behind The Curtain" },
+        { "trackNumber": 5, "title": "Next To You" },
+        { "trackNumber": 6, "title": "Time Bomb" },
+        { "trackNumber": 7, "title": "Voiceless" },
+        { "trackNumber": 8, "title": "Chasing Dreams" },
+        { "trackNumber": 9, "title": "Give Up On You" },
+        { "trackNumber": 10, "title": "Carry On" }
+      ]
+    },
+    {
+      "id": "cmcr6f7g8h9i0j1k2l3m4n5o6p",
+      "title": "Until The End",
+      "type": "ep",
+      "year": 2014,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/until-the-end-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Aware And Awake" },
+        { "trackNumber": 2, "title": "Evolve" },
+        { "trackNumber": 3, "title": "You Lie" },
+        { "trackNumber": 4, "title": "Fade Away" },
+        { "trackNumber": 5, "title": "March On" },
+        { "trackNumber": 6, "title": "House Of Cards" }
+      ]
+    },
+    {
+      "id": "cmcr7g8h9i0j1k2l3m4n5o6p7q",
+      "title": "VENA",
+      "type": "album",
+      "year": 2015,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/vena-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "VENA" },
+        { "trackNumber": 2, "title": "WRONG" },
+        { "trackNumber": 3, "title": "DIVINE" },
+        { "trackNumber": 4, "title": "GONE" },
+        { "trackNumber": 5, "title": "WORDS OF THE YOUTH" },
+        { "trackNumber": 6, "title": "THE STORY" },
+        { "trackNumber": 7, "title": "WHOLE" },
+        { "trackNumber": 8, "title": "RUNAWAY" },
+        { "trackNumber": 9, "title": "PRETTY LITTLE LIAR" },
+        { "trackNumber": 10, "title": "HEART OF THE YOUNG" },
+        { "trackNumber": 11, "title": "FIRE IN THE SKY" },
+        { "trackNumber": 12, "title": "BORN TO BLEED" },
+        { "trackNumber": 13, "title": "UNDERTOW" }
+      ]
+    },
+    {
+      "id": "cmcr8h9i0j1k2l3m4n5o6p7q8r",
+      "title": "FATELESS",
+      "type": "album",
+      "year": 2017,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/fateless-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "ENVY" },
+        { "trackNumber": 2, "title": "FEED THE FIRE" },
+        { "trackNumber": 3, "title": "LOST IN FAITH" },
+        { "trackNumber": 4, "title": "BURY ME" },
+        { "trackNumber": 5, "title": "R.I.P." },
+        { "trackNumber": 6, "title": "INSIDE OUT" },
+        { "trackNumber": 7, "title": "STAY" },
+        { "trackNumber": 8, "title": "COLORBLIND" },
+        { "trackNumber": 9, "title": "F.T.T.T" },
+        { "trackNumber": 10, "title": "UNINVITED" },
+        { "trackNumber": 11, "title": "AFTERMATH" },
+        { "trackNumber": 12, "title": "A DECADE IN THE RAIN" }
+      ]
+    },
+    {
+      "id": "cmcr9i0j1k2l3m4n5o6p7q8r9s",
+      "title": "THE SIDE EFFECTS",
+      "type": "album",
+      "year": 2019,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/the-side-effects-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "MAYDAY" },
+        { "trackNumber": 2, "title": "COEXIST" },
+        { "trackNumber": 3, "title": "SEE YOU" },
+        { "trackNumber": 4, "title": "SPEAK" },
+        { "trackNumber": 5, "title": "THE SIDE EFFECTS" },
+        { "trackNumber": 6, "title": "JANUARY 1ST" },
+        { "trackNumber": 7, "title": "INSOMNIA" },
+        { "trackNumber": 8, "title": "ANSWER / SICKNESS" },
+        { "trackNumber": 9, "title": "BREATHE" },
+        { "trackNumber": 10, "title": "STAY THE COURSE" },
+        { "trackNumber": 11, "title": "REVOLUTION" },
+        { "trackNumber": 12, "title": "LI(E)FE" }
+      ]
+    },
+    {
+      "id": "cmcr0j1k2l3m4n5o6p7q8r9s0t",
+      "title": "Nonnegative",
+      "type": "album",
+      "year": 2022,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/nonnegative-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "Help Me Help You" },
+        { "trackNumber": 2, "title": "CALLING" },
+        { "trackNumber": 3, "title": "Cut Me" },
+        { "trackNumber": 4, "title": "Before I Go" },
+        { "trackNumber": 5, "title": "Bloody Power Fame" },
+        { "trackNumber": 6, "title": "Here With You" },
+        { "trackNumber": 7, "title": "Boys And Girls" },
+        { "trackNumber": 8, "title": "PARADISE (Kill The Silence)" },
+        { "trackNumber": 9, "title": "2020" },
+        { "trackNumber": 10, "title": "Rabbit Hole" },
+        { "trackNumber": 11, "title": "Don't Speak" },
+        { "trackNumber": 12, "title": "From Today" }
+      ]
+    },
+    {
+      "id": "cmcr1k2l3m4n5o6p7q8r9s0t1u",
+      "title": "OPTIMIZE",
+      "type": "ep",
+      "year": 2025,
+      "cover": "/coldrain-cmp252wg70001356p6xsfi2iz/optimize-cover.png",
+      "tracks": [
+        { "trackNumber": 1, "title": "OPTIMIZE" },
+        { "trackNumber": 2, "title": "CHASING SHADOWS" },
+        { "trackNumber": 3, "title": "DIGITOLL" },
+        { "trackNumber": 4, "title": "INCOMPLETE" },
+        { "trackNumber": 5, "title": "FREE FALL" }
+      ]
+    }
+  ]
+}
